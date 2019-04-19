@@ -1,6 +1,6 @@
 # Assets
 
-## Set Asset
+## Set Asset [POST]
 ````
 curl -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      -H "X-User-Id: 6uaRuvyJdc9jvg3Hy" \
@@ -8,7 +8,7 @@ curl -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      http://localhost:3000/api/v1/assets.setAsset
 ````
 
-## Unset Asset
+## Unset Asset [POST]
 ````
 curl -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      -H "X-User-Id: 6uaRuvyJdc9jvg3Hy" \

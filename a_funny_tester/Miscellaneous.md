@@ -1,10 +1,10 @@
 # Miscellaneous Information
 
-## Info
+## Info [GET]
 ````
 curl http://localhost:3000/api/info
 ````
-## Directory
+## Directory [GET]
 ````
 curl -G -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      -H "X-User-Id: 6uaRuvyJdc9jvg3Hy" \
@@ -12,23 +12,23 @@ curl -G -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
           http://localhost:3000/api/v1/directory \
           --data-urlencode 'query={"text": "rocket", "type": "users", "workspace": "local"}'
 ````
-## Shield SVG
+## Shield SVG [GET]
 ````
 curl http://localhost:3000/api/v1/shield.svg
 ````
-## Spotlight
+## Spotlight [GET]
 ````
 curl -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      -H "X-User-Id: 6uaRuvyJdc9jvg3Hy" \
      http://localhost:3000/api/v1/spotlight?query=@root
 ````
-## Statistics
+## Statistics [GET]
 ````
 curl -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      -H "X-User-Id: 6uaRuvyJdc9jvg3Hy" \
      http://localhost:3000/api/v1/statistics
 ````
-## Statistics List
+## Statistics List [GET]
 ````
 curl -H "X-Auth-Token: BVDhOMDRZNBxhxsHkWdF526qAk_yEVZ5VrE6mD6QAv0" \
      -H "X-User-Id: 6uaRuvyJdc9jvg3Hy" \
