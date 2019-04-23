@@ -35,11 +35,18 @@ curl -H "X-Auth-Token: 32WVaWI9-CFofAfw8bxz5DI4zDpKpXPQ5RpZxYK8c0j" \
      -d '{ "username": "test" }'
 ````
 
-## User Delete Own Account
+## User Delete Own Account [POST]
 ````
 curl -H "X-Auth-Token: e0yvuqhb33VRsLkV-DcRwlTvALCBVU4_8MuS993VZE2" \
      -H "X-User-Id: NRwp39fMEtz56gWuB" \
      -H "Content-type:application/json" \
      http://localhost:3000/api/v1/users.deleteOwnAccount \
      -d '{ "password": "62ad5ff252c9923f316ed035a51df0201c24c239b79a02d2c1e126efbc16e730" }'
+````
+
+## Forgot Password [POST]
+````
+curl -H "Content-type:application/json" \
+      http://localhost:3000/api/v1/users.forgotPassword \
+      -d '{ "email": "lolimay@lolimay.cn" }'
 ````
